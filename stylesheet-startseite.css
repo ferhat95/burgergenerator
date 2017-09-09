@@ -1,0 +1,106 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+
+
+#logo{
+font-family:'Covered By Your Grace', sans-serif;
+font-size:32px;
+padding-right:14px;
+float:right;
+color:white;
+text-align: center;
+
+}
+
+.header{
+  padding-top:-5px;
+  position:fixed;
+  display:block;
+  width:100%;
+  background-color:#f94d39;
+
+}
+.nav{
+
+  list-style-type:none;
+  overflow:hidden;
+  font-size:18px;
+}
+
+.nav li{
+  float:left;
+}
+
+.nav a{
+  display:block;
+  color:white;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+
+a:link{
+  color:white;
+  text-decoration:none;
+}
+
+.hover:hover{
+  background-color:#a52112;
+
+}
+
+a:visited{
+  color:white;
+}
+
+body, html{
+  height:100%;
+}
+
+
+
+.cover{
+background-image:url("abstract-1238247_1920.jpg");
+height:100%;
+margin:0;
+padding:0;
+text-align:center;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container h1{
+  font-family:'Covered By Your Grace', sans-serif;
+  font-size:70px;
+  font-weight: bold;
+}
+
+.container h2{
+  font-family:'Covered By Your Grace', sans-serif;
+  font-size:30px;
+  font-weight: bold;
+}
+
+.container a{
+  display:inline-block;
+  text-align:center;
+  width:300px;
+  border-style:solid;
+  font-family:'Covered By Your Grace', sans-serif;
+  font-size:35px;
+  border-color:black;
+  background-color:#f94d39;
+  transition-duration:0.4s;
+  padding:4px;
+  border-radius:6px;
+  margin-top:20px;
+}
+.container a:hover{
+  background-color: #a52112;
+}
