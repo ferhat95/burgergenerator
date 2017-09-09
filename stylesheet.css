@@ -1,0 +1,61 @@
+.{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+h1.logo{
+  background-color:#f94d39;
+  color:white;
+  font-family:'Covered By Your Grace', sans-serif;
+  font-size:90px;
+  font-weight:bolder;
+  line-height: 120px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  border-radius:10px;
+  padding-bottom:1px;
+}
+
+div.header{
+  display:block;
+  margin:0 auto;
+  width:70%;
+}
+.nav{
+  list-style-type:none;
+  text-align:center;
+  margin-top:7px;
+}
+
+.nav li{
+  width:15%;
+  display:inline;
+  text-align:center;
+  font-size:25px;
+  background-color:#f94d39;
+  font-family:'Roboto', sans-serif;
+  border-radius:5px;
+  margin-left:10px;
+  margin-right:10px;
+  padding-left:5px;
+  padding-right:5px;
+}
+nav.a{
+  display:block;
+
+}
+
+a:link{
+  color:white;
+  text-decoration:none;
+}
+.nav li:hover{
+  background-color:#a52112;
+
+}
+a:visited{
+  color:white;
+}
